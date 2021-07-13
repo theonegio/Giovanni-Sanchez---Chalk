@@ -4,8 +4,10 @@
 
 const chalk = require('chalk');  //This is the import command that placed in order utilize chalk on our code.
 
+/*Here the 'console.log' function was stored in the 'log' variable. */
 const log = console.log;
 
+/*Here my story was written with the chalk formatting. */
 log();
 log(chalk.red.bold('\t\t     Hello and welcome to my chalk story!'));
 log();
@@ -38,4 +40,5 @@ log(`
 
 ${chalk.blue.bold('\t\t\t    By: Giovanni Sanchez                           ')}
 
-`)
+`) 
+/*Here the 'console.log' was closed to cut the space where my story was written. */
